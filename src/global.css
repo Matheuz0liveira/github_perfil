@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#setName {
+    padding: 8px;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    border: solid 2px var(--corPrincipal);
+}
+#setName:focus {
+    border-color: var(--corPrincipal);
+}
+
+:root {
+    --corPrincipal:#00e692;
+    --corSecundaria: #252b2b;
+}
